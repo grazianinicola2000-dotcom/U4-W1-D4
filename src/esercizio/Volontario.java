@@ -15,6 +15,6 @@ public class Volontario implements Working {
 
     @Override
     public void checkIn() {
-        System.out.println("Il volontario ha iniziato il suo servizio");
+        System.out.println("Il volontario " + nome + " ha iniziato il suo servizio");
     }
 }
